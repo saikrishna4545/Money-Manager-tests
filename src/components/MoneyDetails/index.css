@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.balance-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 16px;
+  border-width: 1px;
+  border-color: #84cc16;
+  background-color: #ecfccb;
+  border-style: solid;
+  margin-bottom: 16px;
+}
+.balance-image-size {
+  width: 65px;
+  height: 65px;
+  margin: 24px;
+}
+.balance-heading {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  line-height: 1.7;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.balance-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.income-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 16px;
+  border-width: 1px;
+  border-color: #06b6d4;
+  background-color: #cffafe;
+  border-style: solid;
+  margin-bottom: 16px;
+}
+.income-image-size {
+  width: 65px;
+  height: 65px;
+  margin: 24px;
+}
+.income-heading {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  line-height: 1.7;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.income-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.expenses-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 16px;
+  border-width: 1px;
+  border-color: #7c3aed;
+  background-color: #ede9fe;
+  border-style: solid;
+  margin-bottom: 16px;
+}
+.expenses-image-size {
+  width: 65px;
+  height: 65px;
+  margin: 24px;
+}
+.expenses-heading {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  line-height: 1.7;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.expenses-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 0;
+}
